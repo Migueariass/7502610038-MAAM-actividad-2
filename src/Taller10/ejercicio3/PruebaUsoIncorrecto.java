@@ -33,6 +33,6 @@ public class PruebaUsoIncorrecto extends VehiculoBase {
 
         System.out.println("--- Análisis de Uso Incorrecto ---");
         prueba.acelerar(80); // Llama al método de la clase base
-        prueba.frenar();     // Llama al método sobrescrito sin @Override (Mala práctica)
+        prueba.frenar();     // Llama al método sobrescrito sin @Override (Es decir mala practica)
     }
 }
