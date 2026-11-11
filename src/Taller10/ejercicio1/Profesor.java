@@ -1,4 +1,4 @@
-package taller10.ejercicio01;
+package taller10.ejercicio1;
 
 class Persona {
     protected String nombre;
