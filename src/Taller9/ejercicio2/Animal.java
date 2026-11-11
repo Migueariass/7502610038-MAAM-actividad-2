@@ -1,5 +1,6 @@
 package taller09.ejercicio02;
 
+
 public class Animal {
     protected String especie;
 
@@ -10,13 +11,7 @@ public class Animal {
     public void mostrarEspecie() {
         System.out.println("Especie: " + especie);
     }
-
-    public static void main(String[] args) {
-        Perro perro = new Perro("Canino (Canis lupus familiaris)", "Golden Retriever");
-        perro.mostrarEspecie();
-    }
 }
-
 
 class Perro extends Animal {
     private String raza;
@@ -31,11 +26,10 @@ class Perro extends Animal {
         super.mostrarEspecie();
         System.out.println("Raza: " + raza);
     }
-}
 
-    @Override
-    public void mostrarEspecie() {
-        super.mostrarEspecie();
-        System.out.println("Tipo de agua: " + tipoDeAgua);
+
+    public static void main(String[] args) {
+        Perro miPerro = new Perro("Canino (Canis lupus familiaris)", "Boston Terrier");
+        miPerro.mostrarEspecie();
     }
 }
